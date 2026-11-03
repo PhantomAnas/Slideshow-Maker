@@ -22,7 +22,7 @@ Turn a folder of photos, or a text file of image URLs, into polished vertical or
 
 ## How it renders
 
-Every frame is composed in Python (NumPy + Pillow) and streamed as raw RGB into FFmpeg, which encodes H.264 + AAC. That keeps the preview and the output identical, gives frame-accurate progress, and avoids fragile multi-hundred-node filter graphs. A 60 s 1080x1920 video takes about a minute on a laptop CPU.
+Every frame is composed in Python (NumPy + Pillow) and streamed as raw RGB into FFmpeg, which encodes H.264 + AAC. That keeps the preview and the output identical, gives frame-accurate progress, and avoids fragile multi-hundred-node filter graphs. Expect roughly two minutes of rendering per minute of 1080x1920 video on a laptop CPU.
 
 ## Install
 

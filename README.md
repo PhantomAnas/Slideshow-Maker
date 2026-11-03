@@ -1,6 +1,6 @@
-# Slideshow Maker
+# Trendy Reels Maker
 
-Turn a folder of photos, or a text file of image URLs, into polished vertical or landscape slideshow videos: Ken Burns motion, crossfade/slide transitions, blurred-background fill, a logo watermark, an end card and background music. One click renders a batch of videos for reels, shorts and stories.
+Slideshow Maker: turn a folder of photos, or a text file of image URLs, into polished vertical or landscape slideshow videos: Ken Burns motion, crossfade/slide transitions, blurred-background fill, a logo watermark, an end card and background music. One click renders a batch of videos for reels, shorts and stories.
 
 ![Slideshow Maker window](docs/screenshot.png)
 
@@ -26,13 +26,13 @@ Every frame is composed in Python (NumPy + Pillow) and streamed as raw RGB into 
 
 ## Install
 
-**Windows exe**: download `SlideshowMaker.exe` from the [latest release](https://github.com/PhantomAnas/slideshow-maker/releases/latest). You also need **FFmpeg** on your PATH: get a build from [ffmpeg.org](https://ffmpeg.org/download.html) (on Windows, `winget install Gyan.FFmpeg` works) and restart the app. FFmpeg is not bundled.
+**Windows exe**: download `SlideshowMaker.exe` from the [latest release](https://github.com/PhantomAnas/Trendy-Reels-Maker/releases/latest). You also need **FFmpeg** on your PATH: get a build from [ffmpeg.org](https://ffmpeg.org/download.html) (on Windows, `winget install Gyan.FFmpeg` works) and restart the app. FFmpeg is not bundled.
 
 **From source** (Windows, macOS, Linux):
 
 ```
-git clone https://github.com/PhantomAnas/slideshow-maker
-cd slideshow-maker
+git clone https://github.com/PhantomAnas/Trendy-Reels-Maker
+cd Trendy-Reels-Maker
 python -m venv .venv && .venv\Scripts\activate      # or: source .venv/bin/activate
 pip install -e .
 slideshow-maker

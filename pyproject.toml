@@ -30,8 +30,8 @@ dependencies = [
 dev = ["pytest>=8", "pyinstaller>=6"]
 
 [project.urls]
-Homepage = "https://github.com/PhantomAnas/slideshow-maker"
-Issues = "https://github.com/PhantomAnas/slideshow-maker/issues"
+Homepage = "https://github.com/PhantomAnas/Trendy-Reels-Maker"
+Issues = "https://github.com/PhantomAnas/Trendy-Reels-Maker/issues"
 
 [project.scripts]
 slideshow-maker = "slideshow_maker.__main__:main"

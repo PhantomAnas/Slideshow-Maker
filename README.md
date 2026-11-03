@@ -1,4 +1,4 @@
-# Trendy Reels Maker
+# Slideshow Maker
 
 Slideshow Maker: turn a folder of photos, or a text file of image URLs, into polished vertical or landscape slideshow videos: Ken Burns motion, crossfade/slide transitions, blurred-background fill, a logo watermark, an end card and background music. One click renders a batch of videos for reels, shorts and stories.
 

@@ -1,8 +1,20 @@
-"""Thin entry point for PyInstaller; `python -m slideshow_maker` is the same thing."""
+"""Entry point for PyInstaller and for running straight from a checkout:
 
+    python launcher.py            (no install needed; the venv's python or any
+                                   python that has the dependencies installed)
+
+`python -m slideshow_maker` works too once the package is installed (pip install -e .).
+"""
+
+import os
 import sys
 
-from slideshow_maker.__main__ import main
+# Running from a checkout: make src/ importable without installing.
+_SRC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "src")
+if os.path.isdir(_SRC) and _SRC not in sys.path:
+    sys.path.insert(0, _SRC)
+
+from slideshow_maker.__main__ import main  # noqa: E402
 
 if __name__ == "__main__":
     sys.exit(main())

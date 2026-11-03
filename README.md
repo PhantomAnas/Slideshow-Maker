@@ -38,6 +38,8 @@ pip install -e .
 slideshow-maker
 ```
 
+Or skip the install and run `python launcher.py` from the checkout (the dependencies still need to be installed in that Python: `pip install PySide6 numpy Pillow platformdirs`).
+
 ## Use
 
 1. **Photos**: Add photos or a folder (drag-and-drop works too), reorder by dragging thumbnails. Or choose *From URL list* and point at a `.txt` with one image URL per line.

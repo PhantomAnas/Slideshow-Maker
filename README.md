@@ -1,6 +1,8 @@
 # Slideshow Maker
 
-Slideshow Maker: turn a folder of photos, or a text file of image URLs, into polished vertical or landscape slideshow videos: Ken Burns motion, crossfade/slide transitions, blurred-background fill, a logo watermark, an end card and background music. One click renders a batch of videos for reels, shorts and stories.
+**Free, open-source slideshow video maker for Windows and Linux (Python, PySide6, FFmpeg): photos to MP4 with Ken Burns zoom, transitions, music, logo and end card, in vertical (9:16) or landscape.**
+
+Turn a folder of photos, or a text file of image URLs, into polished vertical or landscape slideshow videos: Ken Burns motion, crossfade/slide transitions, blurred-background fill, a logo watermark, an end card and background music. One click renders a batch of videos for reels, shorts and stories.
 
 ![Slideshow Maker window](docs/screenshot.png)
 

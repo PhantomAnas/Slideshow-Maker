@@ -33,14 +33,14 @@ Every frame is composed in Python (NumPy + Pillow) and streamed as raw RGB into 
 **From source** (Windows, macOS, Linux):
 
 ```
-git clone https://github.com/PhantomAnas/Trendy-Reels-Maker
-cd Trendy-Reels-Maker
+git clone https://github.com/PhantomAnas/Slideshow-Maker
+cd Slideshow-Maker
 python -m venv .venv && .venv\Scripts\activate      # or: source .venv/bin/activate
 pip install -e .
 slideshow-maker
 ```
 
-Or skip the install and run `python launcher.py` from the checkout (the dependencies still need to be installed in that Python: `pip install PySide6 numpy Pillow platformdirs`).
+Or skip the install and run `python launcher.py` from the checkout (the dependencies still need to be installed in that Python: `pip install -r requirements.txt`).
 
 ## Use
 
